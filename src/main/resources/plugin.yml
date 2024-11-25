@@ -1,0 +1,4 @@
+name: ark-coin-collector
+version: '1.0.0-SNAPSHOT'
+main: brcomkassin.acc.ArkCoinCollectorPlugin
+api-version: '1.20'
