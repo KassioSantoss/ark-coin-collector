@@ -5,10 +5,14 @@ import java.util.Map;
 
 public class PlayerCoinData {
 
-    protected final static Map<String, Integer> COLLECTED_COINS = new HashMap<>();
+    private final Map<String, Integer> cache;
 
-    public static int getCoinsCollected(String playerName) {
-        return COLLECTED_COINS.getOrDefault(playerName, 0);
+    public PlayerCoinData() {
+        cache = new HashMap<>();
+    }
+
+    public int getCoinsCollected(String playerName) {
+        return cache.getOrDefault(playerName, 0);
     }
 
 }

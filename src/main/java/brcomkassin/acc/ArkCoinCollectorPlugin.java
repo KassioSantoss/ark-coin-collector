@@ -12,7 +12,6 @@ public final class ArkCoinCollectorPlugin extends JavaPlugin {
 
     @Override
     public void onDisable() {
-
     }
 
     public static ArkCoinCollectorPlugin getInstance() {
